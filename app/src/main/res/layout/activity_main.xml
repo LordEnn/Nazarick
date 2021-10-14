@@ -1,61 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:background="#FFEB3B"
-        android:text="Anak 1"
-        android:textSize="30sp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#F10904"></RelativeLayout>
 
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:background="#3F51B5"
-        android:text="Anak 2"
-        android:textSize="30sp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="75dp">
 
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:background="#4CAF50"
-        android:text="Anak 3"
-        android:textSize="30sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="200dp"
+            android:orientation="vertical"
+            tools:context=".MaiActivity">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/white"
+            android:src="@drawable/yoimiya2"></ImageView>
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:src="@drawable/klee2"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:src="@drawable/xiao2"></ImageView>
 
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
 
-    <TextView
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:background="#20FAC7"
-        android:text="Anak 4"
-        android:textSize="30sp"/>
+        </LinearLayout>
 
 
-        <TextView
-            android:layout_width="100dp"
+        <LinearLayout
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#D63B3B"
-            android:text="Anak 5"
-            android:textSize="30sp"/>
+            android:layout_marginLeft="200dp"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
 
-    <TextView
-    android:layout_width="100dp"
-    android:layout_height="wrap_content"
-    android:background="#9C27B0"
-    android:text="Anak 6"
-    android:textSize="30sp"/>
-    </LinearLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:background="@color/white"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/zhongli"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/white"
+                android:src="@drawable/aether"></ImageView>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:background="@color/white"
+                android:src="@drawable/ei"></ImageView>
+
+        </LinearLayout>
+
+    </RelativeLayout>
 
 
-</LinearLayout>
+</RelativeLayout>

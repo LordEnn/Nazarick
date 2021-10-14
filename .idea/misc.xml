@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ACER/AndroidStudioProjects/Nazarick/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Nazarick/app/src/main/res/drawable/bg_box.xml" value="0.1125" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Nazarick/app/src/main/res/drawable/radius_box.xml" value="0.2203125" />
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/Nazarick/app/src/main/res/layout/activity_main.xml" value="0.2" />
       </map>
     </option>
   </component>
